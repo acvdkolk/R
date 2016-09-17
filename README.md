@@ -5,3 +5,4 @@ head(ELS)
 pattern = '*inschrijven*'
 datalines = grep(pattern,ELS[1:length(ELS)], value=TRUE)
 datalines
+
